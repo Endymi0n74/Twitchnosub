@@ -1,32 +1,34 @@
 # TwitchNoSub
 
-Be able to watch any sub-only vod on Twitch, integrated in the website and support every twitch features.
+**🇫🇷 Français** · [🇬🇧 English](README.en.md)
 
-Support chromium based browser (Chrome, Edge, Brave, Opera, ...) and Firefox.
+Pouvoir regarder n'importe quelle VOD sub-only sur Twitch, intégrée au site web et prenant en charge toutes les fonctionnalités de Twitch.
 
-## Download & installation
+Compatible avec les navigateurs basés sur Chromium (Chrome, Edge, Brave, Opera, ...) et Firefox.
 
-##### Chromium based browser
-Download the latest release in the [releases section](https://github.com/besuper/TwitchNoSub/releases) or clone the repo.
+## Téléchargement et installation
 
-You have to install the extension manually:
+##### Navigateur basé sur Chromium
+Téléchargez la dernière release dans la [section releases](https://github.com/besuper/TwitchNoSub/releases) ou clonez le dépôt.
 
-- Go in manage extension (**chrome://extensions/** in chrome)
-- Make sure **Developer mode** is enabled
-- Hit **Load unpacked extension** and select the unzipped folder of the extension.
+Vous devez installer l'extension manuellement :
 
-If you use Chromium (not Chrome), you can pack the extension to get a .crx file you can drag & drop inside extensions page (which removes the need to have a dedicated directory for the extension on your hard drive)
+- Allez gérer les extensions (**chrome://extensions/** dans Chrome)
+- Assurez-vous que le **Mode développeur** est activé
+- Cliquez sur **Charger une extension non empaquetée** et sélectionnez le dossier décompressé de l'extension.
 
-- Unzip the extension
-- In the parent directory of the extension, run the following command : `chromium --pack-extension=TwitchNoSub`
-- Drop the created crx file in the extensions page of your browser (make sure **Developer mode** is enabled, however it will not work)
+Si vous utilisez Chromium (et non Chrome), vous pouvez packer l'extension pour obtenir un fichier .crx que vous pouvez glisser-déposer dans la page des extensions (ce qui évite d'avoir besoin d'un dossier dédié pour l'extension sur votre disque dur)
+
+- Décompressez l'extension
+- Dans le répertoire parent de l'extension, exécutez la commande suivante : `chromium --pack-extension=TwitchNoSub`
+- Déposez le fichier crx créé dans la page des extensions de votre navigateur (assurez-vous que le **Mode développeur** est activé, sinon cela ne fonctionnera pas)
 
 ##### Firefox
-Download the latest .**xpi** file in the [releases section](https://github.com/besuper/TwitchNoSub/releases).
+Téléchargez le dernier fichier .**xpi** dans la [section releases](https://github.com/besuper/TwitchNoSub/releases).
 
-- Drag and drop the xpi file on Firefox
-- Click on "Add" in the little confirmation popup
+- Glissez-déposez le fichier xpi sur Firefox
+- Cliquez sur « Ajouter » dans la petite fenêtre de confirmation
 
-## Warning
+## Avertissement
 
-This extension is still in work in progress, if there is any issue please report it.
+Cette extension est toujours en cours de développement ; si vous rencontrez un problème, merci de le signaler.
